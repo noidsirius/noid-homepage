@@ -1,0 +1,220 @@
+.slider { overflow: hidden; }
+.slider .content { position: relative; }
+.slider .content .page { float: left; }
+
+
+body{
+  color: #ffffff;
+}
+
+div{
+    -webkit-transition: all 500ms ease-in-out 0s;
+    -moz-transition: 	all 500ms ease-in-out 0s;
+    -o-transition: 		all 500ms ease-in-out 0s;
+    transition: 		all 500ms ease-in-out 0s;  
+}
+
+ul {
+	list-style: none;
+
+}
+li {
+	margin-left: 5px;
+	margin-top: 10px;
+
+}
+
+
+.page-box {
+    height: 95%;
+    border-radius: 2px;
+    box-shadow: inset 0 0 6px 0 rgba(0,0,0,0.4);
+    padding: 20px;
+	overflow-y: auto;
+    
+}
+
+
+.page-box-active {
+	/*width: 85%;*/
+}
+
+.page-box #body {
+	padding: 10px;
+}
+
+
+.page-box #title{
+  
+
+  position: absolute;
+  top: 50%;
+  /*left: 40%;*/
+  margin: 0 auto 0;
+  font-weight: 400px;
+  font-size: 20px;
+  text-shadow: 2px 2px rgba(0,0,0,0.2);
+
+}
+
+.img-div {
+		padding: 3px;
+	   box-shadow: inset 0 0 6px 0 rgba(0,0,0,0.4);
+}
+/*
+.page-box:nth-child(1) {
+    background-color: #fda8ab;
+    background-color: rgba(253,168,171,0.3);
+    
+}*/
+
+#first-box {
+   /*background-color: rgba(5,9,35,0.7);*/
+   background-color: #050923;
+ 
+}
+
+#first-box .content {
+	padding: 5px;
+  background-color: rgba(255,255,255,0.1);
+ 	box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
+ 	margin-bottom: 15px;
+  color: #ffffff;
+}
+
+#first-box .content a{
+  color: #ffffff;
+  text-shadow: 2px 2px rgba(255,255,255,0.2);
+}
+
+
+.content {
+  padding: 5px;
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
+  margin-bottom: 15px;
+  color: #ffffff;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.content a{
+  color: #ffffff;
+  text-shadow: 2px 2px rgba(255,255,255,0.2);
+}
+
+/*.page-box:nth-child(2) {
+    background-color: #cd88af;
+    background-color: rgba(205,136,175,0.3);
+}*/
+
+#cv-box {
+   /*background-color: rgba(205,136,175,0.3);*/
+   background-color: #081028;
+   /*background-color: #CC0500;  */
+}
+
+/*#cv-box .content {
+	padding: 5px;
+   	background-color: rgba(205,136,175,0.1);
+ 	box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
+ 	margin-bottom: 15px;
+
+}*/
+#cv-box .content .cv-item {
+	/*background-color: black;*/
+
+}
+
+#cv-box .content .cv-item .cv-title {
+
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	/*color: #505050;*/
+  color: #e5e5e5;
+	/*background-color: #ebe8ed;*/
+ 	/*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
+}
+#cv-box .content .cv-item .cv-date {
+
+	/*text-align: center;*/
+	/*position: relative;*/
+	/*left: -5px;*/
+	float: right;
+	/*background-color: #ebe8ed;*/
+ 	/*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
+}
+
+#about-box {
+   /*background-color: rgba(151,117,170,0.3);*/
+   background-color: #121a41;
+   /*background-color: #CC7B00;*/
+ 
+}
+
+/*#about-box .content {
+  padding: 5px;
+  background-color: rgba(151,117,170,0.1);
+  box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
+  margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+*/
+
+/*.page-box:nth-child(4) {
+    background-color: #837eb1;
+    background-color: rgba(131,126,177,0.3);
+}
+*/
+/*.page-box:nth-child(5) {
+    background-color: #738ca6;
+    background-color: rgba(115,140,166,0.3);
+
+}*/
+/*
+.page-box:nth-child(6) {
+    background-color: #689d99;
+    background-color: rgba(104,157,153,0.3);
+}
+*/
+#contact-box {
+	/*background-color: rgba(104,157,153,0.3);*/
+  background-color: #1d223e;
+  /*background-color: #4BB000;*/
+
+}
+/*
+#contact-box .content {
+	padding: 5px;
+	background-color: rgba(104,157,153,0.1);
+	box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
+
+
+}
+
+*/
+
+.for-show {
+	/*border-style: inset;*/
+	/*border-width: 1px;*/
+	    box-shadow: inset 0 0 6px 0 rgba(0,0,0,0.4);
+}
+
+.rotated
+{
+	-webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
