@@ -70,7 +70,8 @@ li {
 
 #first-box {
    /*background-color: rgba(5,9,35,0.7);*/
-   background-color: #050923;
+   background-color: #010517;
+   /*background-color: #050923;*/
  
 }
 
@@ -109,8 +110,9 @@ li {
 }*/
 
 #cv-box {
+    background-color: #050b29;
    /*background-color: rgba(205,136,175,0.3);*/
-   background-color: #081028;
+   /*background-color: #081028;*/
    /*background-color: #CC0500;  */
 }
 
@@ -153,6 +155,39 @@ li {
  
 }
 
+#project-box {
+   /*background-color: rgba(151,117,170,0.3);*/
+   background-color: #151f52;
+   /*background-color: #CC7B00;*/
+ 
+}
+
+#project-box .content .project-item {
+  /*background-color: black;*/
+
+}
+
+#project-box .content .project-item .project-title {
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  /*color: #505050;*/
+  color: #e5e5e5;
+  /*background-color: #ebe8ed;*/
+  /*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
+}
+#project-box .content .project-item .project-date {
+
+  /*text-align: center;*/
+  /*position: relative;*/
+  /*left: -5px;*/
+  float: right;
+  margin-left: 15px;
+  /*background-color: #ebe8ed;*/
+  /*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
+}
+
 /*#about-box .content {
   padding: 5px;
   background-color: rgba(151,117,170,0.1);
@@ -181,7 +216,7 @@ li {
 */
 #contact-box {
 	/*background-color: rgba(104,157,153,0.3);*/
-  background-color: #1d223e;
+  background-color: #222d66;
   /*background-color: #4BB000;*/
 
 }
