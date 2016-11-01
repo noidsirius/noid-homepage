@@ -7,6 +7,11 @@ body{
   color: #000000;
 }
 
+.borderless td, .borderless th {
+    /*border-top-width: 0 !important;*/
+    border: none !important;
+}
+
 #first-box {
    background-color: #C4C0C0;
 }
@@ -17,12 +22,17 @@ body{
 }
 
 #project-box {
-background-color: #D7D5D5;   
+background-color: #E1DFDF
 }
-#about-box {
+#research-box {
+
+   background-color: #D7D5D5;
+}
+
+/*#about-box {
 
    background-color: #E1DFDF;
-}
+}*/
 
 #contact-box {
   background-color: #EBEAEA;
@@ -171,59 +181,39 @@ li {
   text-align: center;
   font-size: 16px;
   font-weight: bold;
-  /*color: #505050;*/
   color: #000;
-  /*background-color: #ebe8ed;*/
-  /*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
 }
 #project-box .content .project-item .project-date {
 
-  /*text-align: center;*/
-  /*position: relative;*/
-  /*left: -5px;*/
   float: right;
   margin-left: 15px;
-  /*background-color: #ebe8ed;*/
-  /*box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);*/
 }
-
-/*#about-box .content {
-  padding: 5px;
-  background-color: rgba(151,117,170,0.1);
-  box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
-  margin-bottom: 15px;
-  text-align: justify;
-  text-justify: inter-word;
-}
-*/
-
-/*.page-box:nth-child(4) {
-    background-color: #837eb1;
-    background-color: rgba(131,126,177,0.3);
-}
-*/
-/*.page-box:nth-child(5) {
-    background-color: #738ca6;
-    background-color: rgba(115,140,166,0.3);
-
-}*/
-/*
-.page-box:nth-child(6) {
-    background-color: #689d99;
-    background-color: rgba(104,157,153,0.3);
-}
-*/
-
-/*
-#contact-box .content {
-	padding: 5px;
-	background-color: rgba(104,157,153,0.1);
-	box-shadow: 3px 3px 6px 1px rgba(0,0,0,0.4);
-
+#research-box .content .research-item {
+  /*background-color: black;*/
 
 }
 
-*/
+#research-box .content .research-item .research-title {
+
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+}
+#research-box .content .research-item .research-second-title {
+
+  text-align: center;
+  color: #000;
+  margin-bottom: 5;
+}
+
+#research-box .content .research-item .research-date {
+
+  float: right;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 
 .for-show {
 	/*border-style: inset;*/

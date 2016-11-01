@@ -4,10 +4,6 @@
 
 
 	<script type="text/javascript">
-	if (screen.width <= 768) {
-		document.location = "mob/first_look.html";
-	}
-
 	</script>
 
 	<link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
@@ -37,29 +33,41 @@
 			<div class="row">
 				<div class="col-md-8 col-sm-8">
 					<div class="content">
-						<ul>
-							<li>
-								<strong>Name:</strong> Navid Salehnamadi
-							</li>
-							<li>
-								<strong>Nick Name:</strong> Noid
-							</li>
-							<li>
-								<strong>Birth Date:</strong> 1 December 1992 (21 years old)
-							</li>
-							<li>
-								<strong>M.Sc:</strong> Computer Software Engineering, <a href="http://www.sharif.ir/web/en">Sharif University of Technology</a>
-								<!-- <strong>B.Sc:</strong> Computer Software Engineering, <a href="http://ece.ut.ac.ir/portal/">School of Electrical and Computer Engineering</a>, <a href="http://ut.ac.ir/en/">University of Tehran</a>  -->
-							</li>
-							<li>
-								<strong> GPA (M.Sc): </strong> 18.12 out of 20
-							</li>
-							<li>
-								<strong>Research Interest:</strong> Social Networks Analysis, Human Computer Interaction, Algorithm
-							</li>
-						</ul>
-					</div>
-					<div class="content">
+						<table class="table borderless">
+							<tbody>
+								<tr>
+									<th scope="row" style="text-align: right">Name</th>
+									<td style="text-align: left">Navid Salehnamadi</td>
+								</tr>
+								<tr>
+									<th scope="row" style="text-align: right">Nick Name</th>
+									<td style="text-align: left">Noid</td>
+								</tr>
+								<tr>
+									<th scope="row" style="text-align: right">M.Sc.</th>
+									<td style="text-align: left">
+										Computer Software Engineering
+										<br>
+										<a href="http://www.sharif.ir/web/en">Sharif University of Technology</a>
+									</td>
+								</tr>
+								<tr>
+									<th scope="row" style="text-align: right">GPA (M.Sc.)</th>
+									<td style="text-align: left">18.12 out of 20</td>
+								</tr>
+								<tr>
+									<th scope="row" style="text-align: right">Research Interest</th>
+									<td style="text-align: left">
+										 Human Computer Interaction
+										 <br>
+										 Social Network Analysis
+										 <br>
+										 Algorithms
+									 </td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
 						<ul>
 							<li>
 								<a href="mailto:navid.saleh.n@gmail.com"> <i class="fa fa-envelope fa-2x"></i>  navid.saleh.n [at] gmail.com </a>
@@ -69,14 +77,16 @@
 							</li>
 						</ul>
 					</div>
-					<div class="content">
-						<a href="navid_salehnamadi.pdf">You may download my resume (PDF file) here</a>.
-					</div>
+
 				</div>
 				<div class="col-md-4 col-sm-4">
 					<div class="img-div">
 						<img class="img-responsive" src="assets/images/noid5.jpg"/>
 					</div>
+					<hr>
+					<a class="btn btn-default btn-block" href="navid_salehnamadi.pdf">
+						 My <strong>resume</strong> here
+					 </a>
 				</div>
 			</div>
 		</div>
@@ -618,32 +628,33 @@
 			</div>
 		</div>
 	</div>
-	<div id="project-box" class="page-box col-md-1 col-sm-1" >
+	<div id="research-box" class="page-box col-md-1 col-sm-1" >
 		<div class="rotated" id="title">
-			Projects
+			Research
 		</div>
 		<div  id="body"  style="display: none">
 			<div class="row">
 				<h3 style="text-align: center">
-					Projects
+					Research
 				</h3>
 			</div>
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
 					<div class="content">
-						<div class="project-item row">
+						<div class="research-item row">
 							<div class="col-md-3 col-sm-3">
-								<div class="project-title">
+								<div class="research-title">
 									Approximation Algorithms for Geometry Optimization on Sliding Windows
 								</div>
-								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
+								<hr>
+								<div class="research-second-title">
+									M.Sc. Thesis
 								</div>
 							</div>
 							<div class="col-md-9 col-sm-9">
 								<!-- <div class="row"> -->
 								<div>
-									<div class="project-date">
+									<div class="research-date">
 										Spring 2016 - Now
 									</div>
 									<h5>
@@ -656,6 +667,110 @@
 						</div>
 					</div>
 					<div class="content">
+						<div class="research-item row">
+							<div class="col-md-3 col-sm-3">
+								<div class="research-title">
+									Influence maximization on community-structured social networks
+								</div>
+								<hr>
+								<div class="research-second-title">
+									B.Sc. Thesis
+								</div>
+							</div>
+							<div class="col-md-9 col-sm-9">
+								<!-- <div class="row"> -->
+								<div>
+									<div class="research-date">
+										Spring 2015
+									</div>
+									<h5>
+										B.Sc. Thesis
+										<br>
+
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content">
+						<div class="research-item row">
+							<div class="col-md-3 col-sm-3">
+								<div class="research-title">
+									Who's the boss?
+								</div>
+								<hr>
+								<div class="research-second-title">
+									A dataset creation method for influence maximization algorithms
+								</div>
+							</div>
+							<div class="col-md-9 col-sm-9">
+								<div>
+									<div class="research-date">
+										Fall 2013
+									</div>
+
+									<h5>
+										A game theoretical survey about influence of individuals on decision making in social networks
+									</h5>
+									<h5>
+										Under supervision of Dr. Masoud Asadpour
+										<br>
+										Social Networks Course
+									</h5>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="content">
+						<div class="research-item row">
+							<div class="col-md-3 col-sm-3">
+								<div class="research-title">
+									Rescue Agent Simulation
+								</div>
+								<hr>
+								<div class="img-div">
+									<img class="img-responsive" src="assets/images/proj/RSL.jpg"/>
+								</div>
+							</div>
+							<div class="col-md-9 col-sm-9">
+								<div>
+									<div class="research-date">
+										Spring 2014
+										<br>
+										2010
+									</div>
+									<h5>
+										Design and Implementation of a Multi-agent Artificial Intelligent rescue agent team Spring
+									</h5>
+									<h5>
+										Multi-Agent course
+										<br>
+										Khwarizmi Robotics Competition
+									</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="project-box" class="page-box col-md-1 col-sm-1" >
+		<div class="rotated" id="title">
+			Projects
+		</div>
+		<div  id="body"  style="display: none">
+			<div class="row">
+				<h3 style="text-align: center">
+					Projects
+				</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12">
+					<!-- <div class="content">
 						<div class="project-item row">
 							<div class="col-md-9 col-sm-9">
 								<div>
@@ -678,45 +793,19 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="content">
-						<div class="project-item row">
-							<div class="col-md-3 col-sm-3">
-								<div class="project-title">
-									Influence maximization on community-structured social networks
-								</div>
-								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
-								</div>
-							</div>
-							<div class="col-md-9 col-sm-9">
-								<!-- <div class="row"> -->
-								<div>
-									<div class="project-date">
-										Spring 2015
-									</div>
-									<h5>
-										B.Sc. Thesis
-										<br>
-
-									</h5>
-								</div>
-							</div>
-						</div>
-					</div>
-
+					</div>-->
 					<div class="content">
 						<div class="project-item row">
 							<div class="col-md-3 col-sm-3">
 								<div class="project-title">
 									VAHED
 								</div>
+								<hr>
 								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
+									<img class="img-responsive" src="assets/images/proj/vahed.png"/>
 								</div>
 							</div>
 							<div class="col-md-9 col-sm-9">
-								<!-- <div class="row"> -->
 								<div>
 									<div class="project-date">
 										Summer 2014
@@ -748,8 +837,9 @@
 								<div class="project-title">
 									DM Contest
 								</div>
+								<hr>
 								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
+									<img class="img-responsive" src="assets/images/proj/dm.png"/>
 								</div>
 							</div>
 						</div>
@@ -761,6 +851,7 @@
 								<div class="project-title">
 									What should I wear?
 								</div>
+								<hr>
 								<div class="img-div">
 									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
 								</div>
@@ -780,124 +871,39 @@
 							</div>
 						</div>
 					</div>
-					<div class="content">
+					<!-- <div class="content">
 						<div class="project-item row">
-
 							<div class="col-md-9 col-sm-9">
-								<!-- <div class="row"> -->
 								<div>
 									<div class="project-date">
-										Fall 2013
+										Fall 2012
 									</div>
 
 									<h5>
-										A game theoretical survey about influence of individuals on decision making in social networks
+										Design and implementation of a Search Engine with indexing and cache capabilities
+										<br>
+										Developed in Java with B+ Tree, used Splay Tree as cache
 									</h5>
 									<h5>
-										Under supervision of Dr. Masoud Asadpour
-										<br>
-										Social Networks Course
-									</h5>
+										Data structure course
+										<h5>
+										</div>
+									</div>
+									<div class="col-md-3 col-sm-3">
+										<div class="project-title">
+											Design and implementation of a Search Engine
+										</div>
 
+									</div>
 								</div>
-							</div>
-							<div class="col-md-3 col-sm-3">
-								<div class="project-title">
-									Who's the boss?
-								</div>
-								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/boss.png"/>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="content">
-						<div class="project-item row">
-							<div class="col-md-3 col-sm-3">
-								<div class="project-title">
-									Design final project of Data structure course
-								</div>
-								<!--<div class="img-div">
-								<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
 							</div> -->
-						</div>
-						<div class="col-md-9 col-sm-9">
-							<!-- <div class="row"> -->
-							<div>
-								<div class="project-date">
-									Fall 2013
-								</div>
-								<h5>
-									Implementing a social network database and find communities on it
-								</h5>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="content">
-					<div class="project-item row">
-						<div class="col-md-9 col-sm-9">
-							<!-- <div class="row"> -->
-							<div>
-								<div class="project-date">
-									Fall 2012
-								</div>
 
-								<h5>
-									Design and implementation of a Search Engine with indexing and cache capabilities
-									<br>
-									Developed in Java with B+ Tree, used Splay Tree as cache
-								</h5>
-								<h5>
-									Data structure course
-									<h5>
-									</div>
-								</div>
-								<div class="col-md-3 col-sm-3">
-									<div class="project-title">
-										Design and implementation of a Search Engine
-									</div>
-									<!-- <div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/chibepoosham.png"/>
-								</div> -->
-							</div>
-						</div>
-					</div>
-					<div class="content">
-						<div class="project-item row">
-							<div class="col-md-3 col-sm-3">
-								<div class="project-title">
-									Rescue Agent Simulation
-								</div>
-								<div class="img-div">
-									<img class="img-responsive" src="assets/images/proj/RSL.jpg"/>
-								</div>
-							</div>
-							<div class="col-md-9 col-sm-9">
-								<!-- <div class="row"> -->
-								<div>
-									<div class="project-date">
-										Spring 2014
-										<br>
-										2010
-									</div>
-									<h5>
-										Design and Implementation of a Multi-agent Artificial Intelligent rescue agent team Spring
-									</h5>
-									<h5>
-										Multi-Agent course
-										<br>
-										Khwarizmi Robotics Competition
-									</h5>
-								</div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="about-box" class="page-box col-md-1 col-sm-1">
+
+	<!-- <div id="about-box" class="page-box col-md-1 col-sm-1">
 		<div class="rotated" id="title">
 			About Me
 		</div>
@@ -995,7 +1001,7 @@
 			</div>
 
 		</div>
-	</div>
+	</div> -->
 	<div id="contact-box" class="page-box col-md-1 col-sm-1">
 		<div class="rotated" id="title">
 			Contact
